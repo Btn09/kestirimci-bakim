@@ -1,0 +1,7 @@
+.venv/
+data/
+__pycache__/
+.git/
+reports/
+tests/
+models/cnn_fd001.pt
