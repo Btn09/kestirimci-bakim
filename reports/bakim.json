@@ -1,0 +1,54 @@
+{
+  "varsayimlar": {
+    "ariza": 100.0,
+    "planli_bakim": 20.0,
+    "bosa_giden_dongu": 0.1
+  },
+  "stratejiler": [
+    {
+      "strateji": "Tahmine dayalı",
+      "motor_basi_maliyet": 21.8,
+      "ariza_sayisi": 1,
+      "motor": 100,
+      "ortalama_bosa_dongu": 10.1
+    },
+    {
+      "strateji": "Periyodik",
+      "motor_basi_maliyet": 28.6,
+      "ariza_sayisi": 1,
+      "motor": 100,
+      "ortalama_bosa_dongu": 78.8
+    },
+    {
+      "strateji": "Kusursuz bilgi",
+      "motor_basi_maliyet": 20.1,
+      "ariza_sayisi": 0,
+      "motor": 100,
+      "ortalama_bosa_dongu": 1.0
+    },
+    {
+      "strateji": "Bakım yok (bozulunca değiştir)",
+      "motor_basi_maliyet": 100.0,
+      "ariza_sayisi": 100,
+      "motor": 100,
+      "ortalama_bosa_dongu": null
+    }
+  ],
+  "secilen": {
+    "esik": [
+      11,
+      11,
+      11,
+      8,
+      11
+    ],
+    "aralik": [
+      127,
+      134,
+      127,
+      127,
+      127
+    ]
+  },
+  "capraz_tahmin_rmse": 11.996937563549874
+}
